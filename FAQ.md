@@ -7,9 +7,9 @@ If the car isn't in the list, we need to add it, to do that you need to edit the
 Go to [car_models.yml](https://github.com/flobz/psa_car_controller/blob/master/psa_car_controller/psacc/resources/car_models.yml)
 and click on edit then copy an already existent model in the list and edit all properties that are incorrect for your model:
 - Model
-- First ten letter of the car VIN:  
-- Useable Electric capacity in kw: [find it here](https://ev-database.org/cheatsheet/useable-battery-capacity-electric-car)
-- Fuel capacity in liter
+- First 10 characters of the car's VIN:  
+- Usable battery capacity in kWh: [find it here](https://ev-database.org/cheatsheet/useable-battery-capacity-electric-car)
+- Fuel capacity in liters
 - ABRP ref: [find it here](https://api.iternio.com/1/tlm/get_carmodels_list?api_key=32b2162f-9599-4647-8139-66e9f9528370)
 
 Finally, click on propose change. 
